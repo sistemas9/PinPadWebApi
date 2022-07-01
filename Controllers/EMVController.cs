@@ -201,7 +201,6 @@ namespace PinPadWebApi
       _configuration = configuration;
     }
 
-
     [HttpGet("login")]
     [ComVisible(true)]
     public bool login()
